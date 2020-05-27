@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poller One';
+}
+
+.section-outer {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+    background-color: #6DC996;
+    height: 95vh;
+}
+
+.section-outer-game { 
+    background-color: #FFFFFF; 
+    border-radius: 50px; 
+    width: 60%; 
+    height: 58vh; 
+    max-width: 880px;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.section-outer-header {
+    display: flex;
+    align-items: center; 
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.section-outer-header__title {
+    font-family: Amatic SC;
+    font-size: 100px;
+    line-height: 126px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section-outer-game__question {
+    font-family: Amatic SC;
+    font-size: 60px;
+    line-height: 76px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #858585;
+    border-bottom: 1px solid #F06161;
+    width: 80%;
+}
+
+.section-outer-game__input input {
+    width: 270px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #696969;
+    border-radius: 5px;
+    padding: 20px 17px;
+    font-size: 20px;
+}
+
+.section-outer-game__input input::placeholder {
+    color: rgba(134, 134, 134, 0.6);
+}
+
+.section-outer-game__button button {
+    width: 243px;
+    height: 47px;
+    background: #6DC996;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+}
+
+.section-outer-game__button button:active {
+    background: rgba(109, 201, 150, 0.63);
+}
+
+footer {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+    background-color: #6DC996;
+    height: 5vh;
+    color: #FFFFFF;
+    font-family: 'Indie Flower';
+    font-size: 20px;
+}
