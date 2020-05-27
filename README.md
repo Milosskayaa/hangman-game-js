@@ -1,3 +1,3 @@
 # hangman-game-js
 Игра виселица
-### https://milosskayaa.github.oi/hangman-game-js/
+### https://milosskayaa.github.io/hangman-game-js/
