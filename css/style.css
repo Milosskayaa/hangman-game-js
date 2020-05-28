@@ -100,3 +100,7 @@ footer {
     font-family: 'Indie Flower';
     font-size: 20px;
 }
+
+.section-outer-game__main {
+    display: none;
+}
