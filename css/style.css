@@ -81,11 +81,7 @@ body {
     color: rgba(134, 134, 134, 0.6);
 }
 
-.section-outer-game__button{
-    flex-grow: 1;
-}
-
-.section-outer-game__button button {
+.btn {
     width: 243px;
     height: 47px;
     background: #6DC996;
@@ -97,8 +93,21 @@ body {
     outline: none;
 }
 
-.section-outer-game__button button:active {
+.btn:active {
     background: rgba(109, 201, 150, 0.63);
+}
+
+.section-outer-game__button{
+    flex-grow: 1;
+}
+
+.section-outer-game__button-guess {
+    display: none;
+    flex-grow: 1;
+}
+
+.section-outer-game__button-guess button {
+    background: #6C4899;
 }
 
 footer {
